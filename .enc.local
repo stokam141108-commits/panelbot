@@ -1,0 +1,49 @@
+# Variabel untuk Autentikasi Admin
+ADMIN_USERNAME=yudijb
+ADMIN_PASSWORD=Putroyudi
+
+# Variabel untuk URL API (PENTING: Sesuaikan untuk lokal dan Vercel)
+# Untuk pengembangan lokal:
+#NEXT_PUBLIC_API_URL=http://localhost:3000
+# Untuk Vercel, setelah deploy pertama, ganti dengan URL Vercel Anda
+NEXT_PUBLIC_API_URL=https://panelmalzhost.vercel.app
+
+# Variabel Konfigurasi Pterodactyl
+# URL Panel Pterodactyl Anda (tanpa / di akhir)
+PTERO_PANEL_URL=panz.xyzraa.biz.id
+
+# API Key dari Pterodactyl Panel (Account API atau Admin API tergantung kebutuhan wrapper)
+# PTLA adalah singkatan untuk Pterodactyl Admin (biasanya untuk operasi admin seperti list users, dll)
+# - Jika wrapper Anda hanya butuh satu key untuk semua operasi, Anda mungkin hanya perlu mengisi PTLA
+# - Sesuaikan dengan dokumentasi API wrapper Anda
+PTLA_API_KEY=ptla_8nuYzBlXmnCBdOVOsPWg5cYI4sQpNhUZDDzNJXaUrQc
+
+# API Key Client dari Pterodactyl Panel (jika dibutuhkan oleh API Wrapper Anda, misal untuk login client atau operasi spesifik client)
+# PTLC adalah singkatan untuk Pterodactyl Client
+PTLC_API_KEY=ptlc_nh3M6lA7jmsHgaGms4GLmtkVzgTdQWrlPLHRNBQeJXj
+
+# URL lengkap ke API Wrapper Anda (jika berbeda dari aplikasi utama)
+# Jika API Wrapper adalah bagian dari proyek Next.js ini (misal di /api/pterodactyl/*),
+# maka ini mungkin tidak perlu diisi atau bisa diisi dengan NEXT_PUBLIC_API_URL
+# Namun, berdasarkan struktur Anda, sepertinya Anda memanggil endpoint eksternal atau yang berbeda.
+WRAPPER_API_URL=https://apiku-niki.vercel.app
+
+# Konfigurasi Default untuk Pembuatan Server (Opsional, tergantung API Wrapper)
+# ID Lokasi default di Pterodactyl
+DEFAULT_LOCATION_ID=1
+
+# ID Egg default yang akan digunakan saat membuat server
+DEFAULT_EGG_ID=15
+
+# ID Nest default yang berisi Egg di atas
+DEFAULT_NEST_ID=5
+
+PAYMENT_API_KEY="Malzxyz" # API Key dari payment gateway Anda
+PAYMENT_MERCHANT_ID="OK2017480" # Merchant ID dari payment gateway Anda
+PAYMENT_CODEQR="00020101021126670016COM.NOBUBANK.WWW01189360050300000879140214518375416102710303UMI51440014ID.CO.QRIS.WWW0215ID20222259224440303UMI5204481253033605802ID5911AKMAL STORE6006NATUNA61052978162070703A01630446A5" # Kode QR unik atau identifier lain jika diperlukan oleh API createpayment
+PAYMENT_ORDERKUOTA_KEY="80731131733403351832209OKCTB42B3E8937A196829A1152E62C8A4E28"
+MONGODB_URI="mongodb+srv://alfarizzzi716_db_user:sOvnTlNitNnWeJu3@cluster0.vekgecs.mongodb.net/?appName=Cluster0"
+MONGODB_DB="Cluster0"
+PAYMENT_USERNAME="yudijb"
+PAYMENT_TOKEN="2017480:9b0HNaKkxyJ1rz5WUe3iOXqhFwRI8cZE"
+
