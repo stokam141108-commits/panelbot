@@ -8,9 +8,9 @@ function getPterodactylConfig() {
     // const jsonData = fs.readFileSync(filePath, 'utf-8'); // Tidak digunakan lagi
     // return JSON.parse(jsonData); // Tidak digunakan lagi
     return {
-      pterodactylDomain: process.env.PTERO_PANEL_URL || "",
-      pterodactylApiKeyPTLA: process.env.PTLA_API_KEY || "", // Gunakan API key asli
-      // pterodactylApiKeyPTLC: process.env.PTLC_API_KEY || "", // PTLC tidak selalu dibutuhkan untuk delete, tergantung API Wrapper
+      pterodactylDomain: process.env.PTERO_PANEL_URL || "panz.xyzraa.biz.id",
+      pterodactylApiKeyPTLA: process.env.PTLA_API_KEY || "ptla_8nuYzBlXmnCBdOVOsPWg5cYI4sQpNhUZDDzNJXaUrQc", // Gunakan API key asli
+      // pterodactylApiKeyPTLC: process.env.PTLC_API_KEY || "ptlc_nh3M6lA7jmsHgaGms4GLmtkVzgTdQWrlPLHRNBQeJXj", // PTLC tidak selalu dibutuhkan untuk delete, tergantung API Wrapper
       apiWrapperUrl: process.env.WRAPPER_API_URL || ""
     };
   } catch (error) {
