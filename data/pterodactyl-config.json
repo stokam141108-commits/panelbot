@@ -1,0 +1,9 @@
+{
+  "pterodactylDomain": "jkt48.resmix.web.id",
+  "pterodactylApiKeyPTLA": "ptla_",
+  "pterodactylApiKeyPTLC": "ptlc_",
+  "defaultLocationId": "1",
+  "defaultEggId": "15",
+  "defaultNestId": "5",
+  "apiWrapperUrl": "https://apiku-niki.vercel.app"
+}
