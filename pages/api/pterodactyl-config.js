@@ -7,12 +7,12 @@ function getPterodactylConfig() {
   // Membaca dari environment variables
   // Pastikan nama variabel environment di Vercel sesuai dengan yang digunakan di sini (PTERO_PANEL_URL, dll.)
   return {
-    pterodactylDomain: process.env.PTERO_PANEL_URL || "",
-    pterodactylApiKeyPTLA: process.env.PTLA_API_KEY ? "********" : "", // Samarkan API key
-    pterodactylApiKeyPTLC: process.env.PTLC_API_KEY ? "********" : "", // Samarkan API key
-    defaultLocationId: process.env.DEFAULT_LOCATION_ID || "",
-    defaultEggId: process.env.DEFAULT_EGG_ID || "",
-    defaultNestId: process.env.DEFAULT_NEST_ID || "",
+    pterodactylDomain: process.env.PTERO_PANEL_URL || "panz.xyzraa.biz.id",
+    pterodactylApiKeyPTLA: process.env.PTLA_API_KEY ? "ptla_8nuYzBlXmnCBdOVOsPWg5cYI4sQpNhUZDDzNJXaUrQc" : "", // Samarkan API key
+    pterodactylApiKeyPTLC: process.env.PTLC_API_KEY ? "ptlc_nh3M6lA7jmsHgaGms4GLmtkVzgTdQWrlPLHRNBQeJXj" : "", // Samarkan API key
+    defaultLocationId: process.env.DEFAULT_LOCATION_ID || "1",
+    defaultEggId: process.env.DEFAULT_EGG_ID || "15",
+    defaultNestId: process.env.DEFAULT_NEST_ID || "1",
     apiWrapperUrl: process.env.WRAPPER_API_URL || ""
   };
 }
