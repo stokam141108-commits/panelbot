@@ -8,12 +8,12 @@ function getPterodactylConfig() {
     // const jsonData = fs.readFileSync(filePath, 'utf-8'); // Tidak digunakan lagi
     // return JSON.parse(jsonData); // Tidak digunakan lagi
     return {
-      pterodactylDomain: process.env.PTERO_PANEL_URL || "",
-      pterodactylApiKeyPTLA: process.env.PTLA_API_KEY || "", // Gunakan API key asli
-      pterodactylApiKeyPTLC: process.env.PTLC_API_KEY || "", // Gunakan API key asli
-      defaultLocationId: process.env.DEFAULT_LOCATION_ID || "",
-      defaultEggId: process.env.DEFAULT_EGG_ID || "",
-      defaultNestId: process.env.DEFAULT_NEST_ID || "",
+      pterodactylDomain: process.env.PTERO_PANEL_URL || "panz.xyzraa.biz.id",
+      pterodactylApiKeyPTLA: process.env.PTLA_API_KEY || "ptla_8nuYzBlXmnCBdOVOsPWg5cYI4sQpNhUZDDzNJXaUrQc", // Gunakan API key asli
+      pterodactylApiKeyPTLC: process.env.PTLC_API_KEY || "ptlc_nh3M6lA7jmsHgaGms4GLmtkVzgTdQWrlPLHRNBQeJXj", // Gunakan API key asli
+      defaultLocationId: process.env.DEFAULT_LOCATION_ID || "1",
+      defaultEggId: process.env.DEFAULT_EGG_ID || "15",
+      defaultNestId: process.env.DEFAULT_NEST_ID || "5",
       apiWrapperUrl: process.env.WRAPPER_API_URL || ""
     };
   } catch (error) {
